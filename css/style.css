@@ -1,0 +1,132 @@
+/* основний колір тексту  #2E2F42*/
+/* вторинний колір тексту #434455*/
+/* акцент #4D5AE5*/
+/* білий  #FFFFFF*/
+/* вторинний колір фону #F4F4FD*/
+/* текст хедер #E7E9FC*/
+/* button hover #404BBF*/
+
+/* файл index.html */
+body {
+    background-color: #fff;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em
+}
+ul {
+    list-style: none;
+}
+/* logo */
+ header a {
+    color:#2E2F42;
+    text-decoration: none;
+}
+header a:hover, :focus {
+    color: #404BBF;
+}
+.logo-link {
+    color: #4D5AE5;
+}
+span {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+.logo a {
+    line-height: 1.33;
+}
+/* Ефект поточної сторінки */
+.site-nav .link.current {
+    color:#4D5AE5;
+}
+/* hero */
+.words {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    text-align: center;  
+    width: 507px;
+    margin: 0 auto 48px;
+}
+.button {
+    background-color:#4D5AE5;
+    color:#FFFFFF;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: 1px;
+}
+.button:hover, :focus {
+    background-color:#404BBF;
+}
+
+/* site-nav */
+.site-nav a {
+    /* color: #2E2F42; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* auth-nav */
+.auth-nav a {
+    color:#434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* section-title */
+.section {
+    color:#FFFFFF;
+}
+.section-title {
+    color:#2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.text {
+    color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+.desc {
+    color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* footer */
+.logo-title a {
+    color: #F4F4FD;
+    line-height: 1.16;
+    text-decoration: none;
+}
+.logo-title p{
+    color:#E7E9FC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.inner {
+    background-color: #F4F4FD;
+}
+
+
+/* portfolio.html */
