@@ -18,24 +18,23 @@ ul {
     list-style: none;
 }
 /* logo */
-header a {
+.logo a {
     color: var(--brand-color);
     text-decoration: none;
+    line-height: 1.33;
 }
-header a:hover, header a:focus {
+.logo a:hover, .logo a:focus {
     color: var(--color-hover);
    }
 .logo-link {
     color: var(--accent-color);
-}
-span {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03em;
 }
-.logo a {
-    line-height: 1.33;
+span {
+    color: var(--accent-color);
 }
 /* Ефект поточної сторінки */
 .site-nav .link.current {
@@ -47,9 +46,8 @@ span {
 }
 .hero-title {
     color: var(--white-color);
-    font-weight: 700;
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.07;
     text-align: center;  
     width: 507px;
     margin: 0 auto 48px;
@@ -84,9 +82,9 @@ span {
     line-height: 1.5;
 }
 
-/* section-title */
-.section {
-    color: var(--white-color);
+/* section */
+.title {
+    font-size: 0;
 }
 .section-title {
     color: var(--brand-color);
@@ -94,21 +92,22 @@ span {
     font-size: 20px;
     line-height: 1.2;
 }
-.text {
-    color: var(--main-color-text);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
 .subtitle {
-    font-weight: 700;
+    color: var(--brand-color);
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
 }
+.text {
+    color: var(--main-color-text);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.inner {
+    background-color: var(--secondary-background-color);
+}
 .desc {
     color: var(--main-color-text);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -120,30 +119,45 @@ span {
 }
 .logo-title p{
     color: var(--secondary-color-text);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
-.inner {
-    background-color: var(--secondary-background-color);
-}
+
 
 
 /* portfolio.html */
+/* --brand-color: #2E2F42;
+    --main-color-text: #434455;
+    --accent-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --secondary-background-color: #F4F4FD;
+    --secondary-color-text: #E7E9FC;
+    --color-hover: #404BBF; */
 .btn-group {
-    padding: 12px 24px;
-    background-color: var(--secondary-color-text);
-    border: none;
+    background-color: var(--secondary-background-color);
     color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    
+    border-radius: 4px;
+    border: 1px solid var(--secondary-color-text);
 }
-
 .btn-group:hover, .btn-group:focus {
     background-color: var(--color-hover);
-    color: var(--white-color);
-    
-    
+    color: var(--white-color);  
+}
+.picture-title {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.picture p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
